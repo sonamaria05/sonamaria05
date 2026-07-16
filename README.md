@@ -28,7 +28,7 @@
 
 ### <img src="https://media.giphy.com/media/iY9lIQ8YpFbmM/giphy.gif" width="28"> About Me
 
-I'm a Computer Science Engineering undergraduate at St Joseph Engineering College, Mangaluru, currently holding a **9.2 CGPA** while shipping full-stack products end to end. My engineering focus sits at the intersection of **software engineering**, **applied machine learning**, and **product thinking** — I'm equally comfortable architecting a React + Supabase interface as I am training a regression model on real-world data and reasoning about how it should ship to a user.
+I'm a Computer Science Engineering undergraduate at St Joseph Engineering College, Mangaluru, currently holding a **9.2 CGPA** while shipping full-stack products end to end. My engineering focus sits at the intersection of **software engineering**, **applied machine learning**, and **product thinking** — I'm equally comfortable architecting a React + Supabase interface as I am training a regression model on real-world data, building a RAG/LLM pipeline over live documentation, and reasoning about how it should ship to a user.
 
 I approach every build with a product engineer's mindset: not just "does it work," but "does it solve the problem cleanly, and can someone actually use it." Alongside coursework, I'm strengthening my core algorithmic fundamentals through **Striver's A2Z DSA Sheet**, and I've also worked outside the browser, integrating sensors with microcontrollers when a problem called for hardware instead of software.
 
@@ -54,6 +54,14 @@ I approach every build with a product engineer's mindset: not just "does it work
 
 ![Node.js](https://skillicons.dev/icons?i=nodejs) ![Supabase](https://skillicons.dev/icons?i=supabase) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![MongoDB](https://skillicons.dev/icons?i=mongodb)
 
+**AI / LLM Tooling**
+
+![Python](https://skillicons.dev/icons?i=python)
+![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented%20Generation-7C3AED?style=for-the-badge&labelColor=0D0D12)
+![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Models-6D28D9?style=for-the-badge&labelColor=0D0D12)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Indexing-8B5CF6?style=for-the-badge&labelColor=0D0D12)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=0D0D12)
+
 **Cloud, DevOps & Tooling**
 
 ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![VS Code](https://skillicons.dev/icons?i=vscode) ![Arduino](https://skillicons.dev/icons?i=arduino)
@@ -69,6 +77,7 @@ I approach every build with a product engineer's mindset: not just "does it work
 | Predictive Modeling | ● ● ● ● ○ | Trained regression models on real biomarker data (glucose, cholesterol) for health-risk prediction |
 | Regression | ● ● ● ● ○ | Applied to Healytics for risk scoring from structured medical data |
 | Classification | ● ● ● ○ ○ | Core classification fundamentals applied in coursework and small-scale experiments |
+| Retrieval-Augmented Generation (RAG) | ● ● ● ● ○ | Built a source-cited AI assistant over real documentation and GitHub issues using vector search + LLMs |
 | Data Visualization | ● ● ● ● ○ | Built interactive charts to surface lab trends and reduce manual interpretation effort |
 
 </div>
@@ -76,6 +85,23 @@ I approach every build with a product engineer's mindset: not just "does it work
 ---
 
 ### 🚀 Featured Projects
+
+<details>
+<summary><b>🤖 DevDocs RAG Assistant — Source-Cited AI Assistant for Developer Docs</b></summary>
+<br/>
+
+Designed, developed, and deployed an AI assistant that answers developer questions about a Python library by searching real documentation and GitHub issues, generating accurate, source-cited responses. Built the full pipeline end-to-end — web scraping, vector indexing with ChromaDB, and a live Streamlit interface — with Git version control and continuous cloud deployment.
+
+| Aspect | Detail |
+|:--|:--|
+| **Stack** | Python · Streamlit · ChromaDB · RAG/LLM |
+| **Scale** | End-to-end pipeline — web scraping → vector indexing → hybrid retrieval → LLM-generated, source-cited answers |
+| **Performance** | Real-time Q&A over live documentation and GitHub issues |
+| **Security** | Git version control with continuous cloud deployment |
+| **Impact** | Source-cited answers let developers verify responses directly against real docs and issues |
+| **Live Demo** | [devdocs-rag-assistant.streamlit.app](https://devdocs-rag-assistant.streamlit.app/) |
+
+</details>
 
 <details>
 <summary><b>🩺 Healytics — AI-Powered Health Records Platform</b></summary>
@@ -130,6 +156,15 @@ A dual-IR-sensor system that detects entry and exit direction in real time, disp
 
 ---
 
+### 💼 Experience
+
+**Python Programming Intern** — InternPe (Remote) — *July 2026 – Present*
+
+- Built 4–5 Python scripts and mini-projects applying OOP principles, data structures, and file handling
+- Gained experience writing clean, structured code under project timelines in a remote work setting
+
+---
+
 ### 🏆 Achievements
 
 <div align="center">
@@ -162,6 +197,10 @@ A dual-IR-sensor system that detects entry and exit direction in real time, disp
 **Infosys Springboard**
 
 ![Infosys](https://img.shields.io/badge/R%20Programming%20Fundamentals-6D28D9?style=for-the-badge&labelColor=0D0D12)
+
+**Other**
+
+![NoSQL](https://img.shields.io/badge/Introduction%20to%20NoSQL%20Databases-13AA52?style=for-the-badge&labelColor=0D0D12)
 
 ---
 
@@ -216,6 +255,7 @@ current_focus:
     - Data Structures & Algorithms (Striver's A2Z Sheet)
     - Advanced Machine Learning techniques
   building:
+    - DevDocs RAG Assistant — source-cited AI assistant over docs & GitHub issues
     - Healytics — AI-powered health records platform
     - Portfolio Builder — no-code portfolio generator
   exploring:

@@ -61,10 +61,12 @@ I approach every build with a product engineer's mindset: not just "does it work
 ![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Models-6D28D9?style=for-the-badge&labelColor=0D0D12)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Indexing-8B5CF6?style=for-the-badge&labelColor=0D0D12)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=0D0D12)
+![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent%20Orchestration-8B5CF6?style=for-the-badge&labelColor=0D0D12)
 
 **Cloud, DevOps & Tooling**
 
 ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![VS Code](https://skillicons.dev/icons?i=vscode) ![Arduino](https://skillicons.dev/icons?i=arduino)
+![Celonis](https://img.shields.io/badge/Celonis-1B3A63?style=for-the-badge&labelColor=0D0D12) ![Process Mining](https://img.shields.io/badge/Process%20Mining-7C3AED?style=for-the-badge&labelColor=0D0D12)
 
 ---
 
@@ -78,6 +80,7 @@ I approach every build with a product engineer's mindset: not just "does it work
 | Regression | ● ● ● ● ○ | Applied to Healytics for risk scoring from structured medical data |
 | Classification | ● ● ● ○ ○ | Core classification fundamentals applied in coursework and small-scale experiments |
 | Retrieval-Augmented Generation (RAG) | ● ● ● ● ○ | Built a source-cited AI assistant over real documentation and GitHub issues using vector search + LLMs |
+| Multi-Agent Systems | ● ● ● ● ○ | Designed a 3-agent (Strategist/Writer/Editor) pipeline for platform-specific content generation |
 | Data Visualization | ● ● ● ● ○ | Built interactive charts to surface lab trends and reduce manual interpretation effort |
 
 </div>
@@ -117,6 +120,23 @@ An AI-powered platform that extracts structured data from medical documents and 
 | **Security** | Supabase Auth-backed access control on user health records |
 | **Impact** | Reduced manual data entry and improved lab-trend readability for users |
 | **Repository** | [github.com/sonamaria05/health-hub](https://github.com/sonamaria05/health-hub) |
+
+</details>
+
+<details>
+<summary><b>🧩 ContentForge — Multi-Agent AI Content Generator</b></summary>
+<br/>
+
+A 3-agent pipeline (Strategist, Writer, Editor) that turns a single topic into publish-ready content across four formats — LinkedIn, X, blog, and YouTube — each governed by distinct, explicitly-defined formatting constraints rather than generic prompting.
+
+| Aspect | Detail |
+|:--|:--|
+| **Stack** | Python · CrewAI · Streamlit |
+| **Scale** | 4 content formats, each with enforced platform-specific rules |
+| **Performance** | Multi-LLM provider support (Groq, OpenAI, Anthropic) |
+| **Security** | Not applicable — content generation tool, no user data storage |
+| **Impact** | Removes manual reformatting across platforms from a single input |
+| **Live Demo** | [thecontentforge-ai.streamlit.app](https://thecontentforge-ai.streamlit.app/) |
 
 </details>
 
@@ -198,6 +218,10 @@ A dual-IR-sensor system that detects entry and exit direction in real time, disp
 
 ![Infosys](https://img.shields.io/badge/R%20Programming%20Fundamentals-6D28D9?style=for-the-badge&labelColor=0D0D12)
 
+**Celonis**
+
+![Celonis](https://img.shields.io/badge/Process%20Mining%20Rising%20Star%20--%20Automation-1B3A63?style=for-the-badge&labelColor=0D0D12)
+
 **Other**
 
 ![NoSQL](https://img.shields.io/badge/Introduction%20to%20NoSQL%20Databases-13AA52?style=for-the-badge&labelColor=0D0D12)
@@ -257,10 +281,12 @@ current_focus:
   building:
     - DevDocs RAG Assistant — source-cited AI assistant over docs & GitHub issues
     - Healytics — AI-powered health records platform
+    - ContentForge — multi-agent AI content generation pipeline
     - Portfolio Builder — no-code portfolio generator
   exploring:
     - Embedded systems & IoT integration
     - Cloud-native backends with Supabase
+    - Process mining with Celonis
   open_to:
     - Software Engineer roles
     - Full-stack engineering opportunities

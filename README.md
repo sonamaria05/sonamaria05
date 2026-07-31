@@ -178,7 +178,7 @@ A dual-IR-sensor system that detects entry and exit direction in real time, disp
 
 ### 💼 Experience
 
-**Python Programming Intern** — InternPe (Remote) — *July 2026 – Present*
+**Python Programming Intern** — InternPe (Remote) — *July 2026*
 
 - Built 4–5 Python scripts and mini-projects applying OOP principles, data structures, and file handling
 - Gained experience writing clean, structured code under project timelines in a remote work setting
